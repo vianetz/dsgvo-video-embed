@@ -19,7 +19,7 @@
      '<div>' + '<p>' + django.gettext('Here you can find a video from Vimeo. To protect your data the content will only be loaded after you give your consent. Only then will Vimeo set Cookies that collect information on user behaviour.') +
      '</p>' + '<p>' + django.gettext('More information can be found in the privacy policy of Vimeo under: ') +
      '<a href="https://vimeo.com/privacy" rel="noopener" target="_blank">' + 'https://vimeo.com/privacy' +
-     '</a>' + '</p>' + '</div>' + '<a class="video-link" href="https://vimeo.com/%id%" rel="noopener" target="_blank">' + django.gettext('Link to Video: )' + 'https://vimeo.com/%id%' + '</a>' + '<button>' + django.gettext('Play video') + '</button>'
+     '</a>' + '</p>' + '</div>' + '<a class="video-link" href="https://vimeo.com/%id%" rel="noopener" target="_blank">' + django.gettext('Link to Video: ') + 'https://vimeo.com/%id%' + '</a>' + '<button>' + django.gettext('Play video') + '</button>'
    };
    window.video_iframes = [];
    document.addEventListener("DOMContentLoaded", function() {
