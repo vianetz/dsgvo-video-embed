@@ -36,11 +36,7 @@
          continue;
        }
        // Prevent iframes from loading remote content
-       if (typeof (window.frames[0].stop) === 'undefined'){
-       	setTimeout(function() {window.frames[0].execCommand('Stop');},1000);
-       }else{
-       	setTimeout(function() {window.frames[0].stop();},1000);
-       }
+       setTimeout(function() {window.video_iframes[0].stop;},1000);
        video_platform = video_src.match(/vimeo/) == null ? 'youtube' : 'vimeo';
        video_id = video_src.match(/(embed|video)\/([^?\s]*)/)[2];
        wall.setAttribute('class', 'video-wall');
